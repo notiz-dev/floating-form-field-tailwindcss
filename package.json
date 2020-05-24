@@ -1,0 +1,18 @@
+{
+  "name": "floating-form-field-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "dev": "postcss css/tailwind.css -o public/build/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "~9.8.0",
+    "postcss-cli": "~7.1.1",
+    "tailwindcss": "~1.4.6"
+  }
+}
