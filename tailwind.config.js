@@ -2,6 +2,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      transformOrigin: {
+        "0": "0%",
+      },
       zIndex: {
         "-1": "-1",
       },
